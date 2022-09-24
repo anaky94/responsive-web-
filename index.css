@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    list-style: none;
+}
+body{
+    font-size: 'poppins';
+}
+header{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(image/image1.jpg);
+    background-size: cover; 
+}
+.navbar{
+    position:absolute;
+   padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space space-between;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.navbar a {
+    color: white;
+
+}
+.navbar .logo {
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+.navbar .nav-links ul{
+    display: flex;
+    
+}
+.navbar .nav-links ul li{
+    display: flex;
+
+}
