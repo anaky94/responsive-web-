@@ -22,7 +22,16 @@
                 
             </ul>
         </div>
+        <img src="image/icon.png" alt="menu hamburger" class="menu-hamburger">
      </nav>
     <header></header>
+    <script>
+        const menuHamburger = document.querySelector(".menu-hamburger")
+        const navlinks = document.querySelector(".nav-links")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
 </body>
 </html>
